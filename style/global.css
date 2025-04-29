@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -5,6 +9,7 @@
 }
 
 :root{
+    /*colors*/
     --red:#E3646E;
     --purple:#BB72E9;
     --blue:#3996DB;
@@ -19,6 +24,10 @@
 
     /*fonts*/
 
-    --font-family:
-
+    --font-family:'Archivo','sans-serif';
+    --title-lg:800 24px/120%;
+    --title-sm:800 16px/120%;
+    --sub-title:800 20px/120%;
+    --text-md: 800 16px/140%;
+    --text-sm:800 14px/140%;
 }
