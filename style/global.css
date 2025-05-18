@@ -89,5 +89,10 @@ main{
   margin: 0;
 }
 
+/*section/footer*/
+
+section .card_secondary {
+  padding: 15px;
+}
 
 
