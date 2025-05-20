@@ -44,12 +44,12 @@ body{
 
 main{
   padding: 40px 20px;
-  background-color: var(--gray-200);
   color: var(--gray-600);
 }
 
 .container{
    display: grid;
+   background-color: var(--gray-200);
    grid-template-columns: repeat(auto-fit, minmax(250px,24px));
    gap: 24px;
    max-width: 1200px;
@@ -91,8 +91,52 @@ main{
 
 /*section/footer*/
 
-section .card_secondary {
-  padding: 15px;
+section{
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 40px 20px;
+    background: var(--gray-100);
 }
+
+.services h4{
+  font:var(--h3-subtitle);
+  margin-bottom: 10px;
+  color: #E3646E;
+}
+
+.services h3{
+ font: var(--h3-title);
+ margin-bottom: 30px;
+ color: var(--gray-600);
+}
+
+.contenier_secondary{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.services-card{
+  background: var(--gray-100);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 245px;
+  padding: 15px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--gray-300);
+
+}
+
+.services-card img{
+  width:40px;
+  height: 40px;
+  margin: 3px;
+  color: #BB72E9;
+}
+
+
+
 
 
