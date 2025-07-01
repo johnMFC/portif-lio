@@ -62,7 +62,7 @@ span{
 .cabecalho p{
 
     font: var(--text-sm);
-    color: var(--gray-100);
+    color: var(--gray-400);
     display: -webkit-box; /* Permite limitar o número de linhas */
     -webkit-line-clamp: 2; /* Limita a 2 linhas */
     -webkit-box-orient: vertical; 
