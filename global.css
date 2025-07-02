@@ -63,11 +63,20 @@ main{
 
 .card{
    background-color: var(--gray-300);
+   text-decoration: none;
+   color: inherit;
    border-radius: 10px;
    overflow: hidden;
    width: 250px;
    transition: transform 0.3s;
    gap: 24px;
+   transition: transform 0.3s, box-shadow 0.3s;
+   cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 16px 20px rgba(214, 212, 212, 0.1);
 }
 
 .card img{
