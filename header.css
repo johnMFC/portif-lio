@@ -84,6 +84,7 @@ nav {
    padding: 16px ;
    list-style: none;
    font: var(--h3-subtitle);
+   flex-wrap: wrap;
 }
 
 nav a{
