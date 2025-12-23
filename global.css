@@ -1,0 +1,154 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*colors*/
+    --red:#E3646E;
+    --purple:#BB72E9;
+    --blue:#3996DB;
+    --green:#82BC4F;
+    --yellow:#EABD5F;
+    --gray-100:#0D0E11;
+    --gray-200:#16181D;
+    --gray-300:#292C34;
+    --gray-400:#878EA1;
+    --gray-500:#C0C4CE;
+    --gray-600:#E2E4E9;
+
+    /*fonts*/
+    --font-title:'Asap',sans-serif;
+    --font-subtitle:'Inconsolata',monospace;
+    --font-text:'Maven Pro',sans-serif;
+    --h1:700 56px/120% var(--font-title);
+    --h2:700 24px/120% var(--font-title);
+    --h3-title:700 16px/120% var(--font-title);
+    --h3-subtitle:400 16px/120% var(--font-subtitle);
+    --text:400 16px/140% var(--font-text);
+    --text-sm: 400 14px/140% var(--font-text);
+}
+
+body{
+    background-color: var(--gray-200);
+    line-height:1.6;
+}
+
+
+main{
+  padding: 40px 20px;
+  color: var(--gray-600);
+}
+
+.container{
+   display: grid;
+   background-color: var(--gray-200);
+   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+   gap: 24px;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.container h2{
+  font:var(--h2);
+  margin-bottom: 20px;
+}
+
+.card{
+   background-color: var(--gray-300);
+   text-decoration: none;
+   color: inherit;
+   border-radius: 10px;
+   overflow: hidden;
+   width: 250px;
+   transition: transform 0.3s;
+   gap: 24px;
+   transition: transform 0.3s, box-shadow 0.3s;
+   cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 16px 20px rgba(214, 212, 212, 0.1);
+}
+
+.card img{
+  width:100%;
+  max-height: 150px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card h3{ 
+  font: var(--h3-title);
+  padding: 5px;
+  margin: 0;
+}
+
+.card p{
+  font: var(--text-sm);
+  padding: 5px;
+  color: var(--gray-400);
+  margin: 0;
+}
+
+/*section/footer*/
+
+section{
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 40px 20px;
+    background: var(--gray-100);
+}
+
+.services h4{
+  font:var(--h3-subtitle);
+  margin-bottom: 10px;
+  color: #E3646E;
+}
+
+.services h3{
+ font: var(--h3-title);
+ margin-bottom: 30px;
+ color: var(--gray-600);
+}
+
+.contenier_secondary{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.services-card{
+  background: var(--gray-100);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 245px;
+  padding: 15px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--gray-300);
+
+}
+
+.services-card img{
+  width:40px;
+  height: 40px;
+  margin: 3px;
+  color: #BB72E9;
+}
+
+
+
+
+
